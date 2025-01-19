@@ -1,22 +1,22 @@
-#MNIST Digit Classification with Convolutional Neural Networks (CNNs)
+# MNIST Digit Classification with Convolutional Neural Networks (CNNs)
 
 
-##Overview
+## Overview
 This project demonstrates how to classify handwritten digits from the MNIST dataset using a Convolutional Neural Network (CNN) implemented in TensorFlow/Keras. The model is designed to recognize digits (0-9) with high accuracy, incorporating features like data augmentation and regularization to enhance performance and generalization.
 
-##Key Features
-###Data Augmentation: Random rotations, shifts, and zooms improve model robustness and generalization.
+## Key Features
+### Data Augmentation: Random rotations, shifts, and zooms improve model robustness and generalization.
 
-###CNN Architecture: Includes convolutional layers, max-pooling, batch normalization, and dropout for efficient feature extraction and reduced overfitting.
+### CNN Architecture: Includes convolutional layers, max-pooling, batch normalization, and dropout for efficient feature extraction and reduced overfitting.
 
-###Early Stopping: Stops training when validation loss plateaus to prevent overfitting.
+### Early Stopping: Stops training when validation loss plateaus to prevent overfitting.
 
-###Custom Image Prediction: Preprocesses and predicts handwritten digits from user-uploaded grayscale images.
+### Custom Image Prediction: Preprocesses and predicts handwritten digits from user-uploaded grayscale images.
 
-###Visualization: Displays training/validation accuracy trends and preprocessed input images for analysis.\
+### Visualization: Displays training/validation accuracy trends and preprocessed input images for analysis.\
 
-##How to Use
-#Clone the repository.
+## How to Use
+# Clone the repository.
 
 1.Install the required dependencies listed below.
 
@@ -26,7 +26,7 @@ This project demonstrates how to classify handwritten digits from the MNIST data
 
 4.Test predictions on custom or test data.
 
-##Installation
+## Installation
 ```bash
 ###Clone this repository
 git clone https://github.com/your-username/mnist-digit-classification.git
@@ -37,7 +37,7 @@ cd mnist-digit-classification
 # Install dependencies
 pip install -r requirements.txt
 ```
-##Requirements
+## Requirements
 ⦁Python 3.x
 
 ⦁TensorFlow
@@ -50,8 +50,8 @@ pip install -r requirements.txt
 
 ⦁Pillow
 
-##Results
-###Model Accuracy
+## Results
+### Model Accuracy
 ⦁Achieved over 98% accuracy on the MNIST test dataset.
 
 ⦁Custom images are correctly classified with high confidence.
